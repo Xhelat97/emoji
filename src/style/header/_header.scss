@@ -1,0 +1,31 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 68px 0 100px 0;
+    background: linear-gradient(134deg, #087990 0%, #055160 100%);
+    &__title {
+        font-size: 72px;
+        font-family: "Inter";
+        font-weight: 700;
+        color: #cff4fc;
+    }
+    &__subtitle {
+        margin-top: 4px;
+        color: #cff4fc;
+        font-size: 21px;
+    }
+    &__input {
+        position: absolute;
+        top: 250px;
+        width: 820px;
+        height: 64px;
+        border-radius: 4px;
+        border: 1px solid #ced4da;
+        background: #fff;
+        color: #abb5be;
+        font-size: 24px;
+    }
+}
